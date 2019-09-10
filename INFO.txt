@@ -1,0 +1,5 @@
+https://caniuse.com/#search=web%20crypto
+https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto
+https://blog.engelke.com/2015/02/14/deriving-keys-from-passwords-with-webcrypto/
+https://github.com/diafygi/webcrypto-examples
+https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#ECB-weakness
