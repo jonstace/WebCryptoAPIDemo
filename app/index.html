@@ -26,6 +26,19 @@
 
     <div class="hero-unit">
       <h1 id="myh1">Web Crypto API</h1>
+
+      <p>
+        <label for="password">Password for encryption: </label><input type="text" id="password"></input>
+      </p>
+      <p>
+        <label for="data">data to encrypt: </label><input type="text" id="data"></input>
+      </p>
+      <p><button id="encryptData">Encrypt Data</button></p>
+
+      <p>
+        <label for="decryptid">Id to decrypt</label><input type="text" id="decryptid"></input>
+      </p>
+      <p><button id="decryptData">Decrypt Data</button></p>
     </div>
 
 
@@ -33,9 +46,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/dexie/dist/dexie.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <script src="scripts/text-encoder-shim.js"></script>
+    <script src="/bower_components/dexie/dist/dexie.js"></script>
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>

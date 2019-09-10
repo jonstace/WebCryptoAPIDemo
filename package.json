@@ -41,5 +41,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "dexie": "^2.0.4"
   }
 }
